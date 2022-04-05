@@ -1,16 +1,35 @@
 module.exports = {
-  root: true,
-  extends: '@react-native-community',
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  // extends: ['plugin:react/recommended', 'airbnb'],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      rules: {
-        '@typescript-eslint/no-shadow': ['error'],
-        'no-shadow': 'off',
-        'no-undef': 'off',
-      },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
     },
-  ],
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  plugins: ['@typescript-eslint'],
+  rules: {
+    semi: ['error', 'always'],
+    quotes: ['error', 'single'],
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': ['error'],
+    'no-console': 'error',
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
+    'import/extensions': [
+      0,
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
+  },
 };
