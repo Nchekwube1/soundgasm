@@ -19,6 +19,7 @@ target 'soundgasm' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+
   target 'soundgasmTests' do
     inherit! :complete
     # Pods for testing
