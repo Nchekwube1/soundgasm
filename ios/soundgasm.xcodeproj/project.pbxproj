@@ -28,6 +28,7 @@
 		5B6B63F627FECC9B001E132C /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B6B63E627FECC9B001E132C /* AntDesign.ttf */; };
 		5B6B63F727FECC9B001E132C /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B6B63E727FECC9B001E132C /* EvilIcons.ttf */; };
 		5B6B63F827FECC9B001E132C /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B6B63E827FECC9B001E132C /* Octicons.ttf */; };
+		5B7F50F0280EFFCC00CE5D5E /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F50EF280EFFCC00CE5D5E /* Fonts */; };
 		7699B88040F8A987B510C191 /* libPods-soundgasm-soundgasmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-soundgasm-soundgasmTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,7 @@
 		5B6B63E727FECC9B001E132C /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		5B6B63E827FECC9B001E132C /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-soundgasm-soundgasmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soundgasm-soundgasmTests.debug.xcconfig"; path = "Target Support Files/Pods-soundgasm-soundgasmTests/Pods-soundgasm-soundgasmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B7F50EF280EFFCC00CE5D5E /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-soundgasm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-soundgasm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = soundgasm/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-soundgasm-soundgasmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soundgasm-soundgasmTests.release.xcconfig"; path = "Target Support Files/Pods-soundgasm-soundgasmTests/Pods-soundgasm-soundgasmTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				5B7F50EF280EFFCC00CE5D5E /* Fonts */,
 				13B07FAE1A68108700A75B9A /* soundgasm */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* soundgasmTests */,
@@ -311,6 +314,7 @@
 				5B6B63F827FECC9B001E132C /* Octicons.ttf in Resources */,
 				5B6B63EB27FECC9B001E132C /* FontAwesome5_Brands.ttf in Resources */,
 				5B6B63F727FECC9B001E132C /* EvilIcons.ttf in Resources */,
+				5B7F50F0280EFFCC00CE5D5E /* Fonts in Resources */,
 				5B6B63EF27FECC9B001E132C /* FontAwesome5_Regular.ttf in Resources */,
 				5B6B63F427FECC9B001E132C /* Ionicons.ttf in Resources */,
 				5B6B63F327FECC9B001E132C /* MaterialCommunityIcons.ttf in Resources */,
