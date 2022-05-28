@@ -9,7 +9,7 @@ export const onboardSlice = createSlice({
   name: 'onboarding',
   initialState,
   reducers: {
-    onBoardViewed: (state, action: PayloadAction<boolean>) => {
+    onBoardViewed: (state: OnboardingState, action: PayloadAction<boolean>) => {
       state.firstTime = action.payload;
     },
   },
