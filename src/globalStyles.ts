@@ -8,11 +8,15 @@ export const globalStyle = ScaledSheet.create({
   tabLabelStyle: {
     fontSize: '15@s',
     textTransform: 'capitalize',
-    fontFamily: 'Poppins-Medium',
+    fontFamily: 'Rubik',
   },
   tabBarStyle: {
     backgroundColor: Colors.bottomTabBlack,
     height: '85@s',
     paddingVertical: '17@s',
+  },
+  mainContainer: {
+    flex: 1,
+    backgroundColor: Colors.black,
   },
 });
