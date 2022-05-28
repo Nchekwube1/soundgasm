@@ -7,31 +7,37 @@
  *
  * @format
  */
-
 import React from 'react';
 import {SafeAreaView, StatusBar, StyleSheet, View} from 'react-native';
 import Colors from './colors';
-
+import {store} from './store';
+import {Provider} from 'react-redux';
+import Icon from 'react-native-vector-icons/FontAwesome';
 const STATUSBAR_HEIGHT = StatusBar.currentHeight;
 function App() {
   return (
-    <View
-      style={{
-        ...StyleSheet.absoluteFillObject,
-        backgroundColor: Colors.black,
-      }}>
-      <SafeAreaView
+    <Provider store={store}>
+      <View
         style={{
-          height: STATUSBAR_HEIGHT,
-          backgroundColor: Colors.greenTheme,
+          ...StyleSheet.absoluteFillObject,
+          backgroundColor: Colors.white,
         }}>
-        <StatusBar
-          translucent
-          barStyle={'dark-content'}
-          backgroundColor={Colors.greenTheme}
-        />
-      </SafeAreaView>
-    </View>
+        <SafeAreaView
+          style={{
+            height: STATUSBAR_HEIGHT,
+            backgroundColor: Colors.greenTheme,
+          }}>
+          <StatusBar
+            translucent
+            barStyle={'dark-content'}
+            backgroundColor={Colors.greenTheme}
+          />
+        </SafeAreaView>
+        <View>
+          <Icon name="rocket" size={30} color="#900" />
+        </View>
+      </View>
+    </Provider>
   );
 }
 
