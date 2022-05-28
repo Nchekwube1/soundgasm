@@ -26,12 +26,12 @@ function App() {
         <SafeAreaView
           style={{
             height: STATUSBAR_HEIGHT,
-            backgroundColor: Colors.greenTheme,
+            backgroundColor: Colors.lightBlack,
           }}>
           <StatusBar
             translucent
-            barStyle={'dark-content'}
-            backgroundColor={Colors.greenTheme}
+            barStyle={'light-content'}
+            backgroundColor={Colors.lightBlack}
           />
         </SafeAreaView>
         <NavigationContainer>

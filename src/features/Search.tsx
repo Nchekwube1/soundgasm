@@ -1,11 +1,12 @@
-import {View, Text} from 'react-native';
+import {Text} from 'react-native';
 import React from 'react';
+import ViewComponent from '../components/ViewComponent';
 
 const Search = () => {
   return (
-    <View>
+    <ViewComponent>
       <Text>Search</Text>
-    </View>
+    </ViewComponent>
   );
 };
 
