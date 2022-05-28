@@ -12,7 +12,8 @@ import {SafeAreaView, StatusBar, StyleSheet, View} from 'react-native';
 import Colors from './colors';
 import {store} from './store';
 import {Provider} from 'react-redux';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import BottomTabNavigator from './src/navigation/BottomTabNavigator';
+import {NavigationContainer} from '@react-navigation/native';
 const STATUSBAR_HEIGHT = StatusBar.currentHeight;
 function App() {
   return (
@@ -33,9 +34,9 @@ function App() {
             backgroundColor={Colors.greenTheme}
           />
         </SafeAreaView>
-        <View>
-          <Icon name="rocket" size={30} color="#900" />
-        </View>
+        <NavigationContainer>
+          <BottomTabNavigator />
+        </NavigationContainer>
       </View>
     </Provider>
   );
