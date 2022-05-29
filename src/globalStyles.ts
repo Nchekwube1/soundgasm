@@ -19,4 +19,7 @@ export const globalStyle = ScaledSheet.create({
     flex: 1,
     backgroundColor: Colors.black,
   },
+  textWhite: {
+    color: Colors.white,
+  },
 });
